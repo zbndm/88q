@@ -1,0 +1,17 @@
+{
+	"name": "88q",
+	"version": "3.0.4",
+	
+	"main": "index.js",
+	"types": "index.d.ts",
+	"files": [
+		"index.js",
+		"index.d.ts",
+		"tsconfig.json",
+		"public/"
+	],
+	"scripts": {
+		"g": "git add . && git commit -m \"first commit\" && git push -u origin main -f",
+		"build": "npx wrangler pages functions build --plugin --outfile=index.js"
+	}
+}
